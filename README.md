@@ -23,7 +23,6 @@ Generated images from trained model (T = 98000 steps):
 ![923](https://github.com/user-attachments/assets/1d542079-5af3-4fce-ba29-280a8c00d4e4)
 
 ## Training Loss Plot
-
 ![loss](https://github.com/user-attachments/assets/c6d00635-f9b0-46fe-a9db-427e517c4a30)
 
 
