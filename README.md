@@ -25,7 +25,6 @@ Generated images from trained model (T = 98000 steps):
 ## Repository Structure
 
 ```
-├── code files/                  # All code files for DDPM Implementation
 ├── Results/                     # Generated samples during evaluation
 ├── data                         # partial AFHQ dataset
 ├── Original DDPM Research Paper # DDPM Paper by Ho et al
