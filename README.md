@@ -49,3 +49,6 @@ python evaluate.py sample --ckpt_path last.ckpt --save_path results/
 Computing FID
 
 python evaluate.py fid --ckpt_path last.ckpt
+
+## Note 
+Code files available on request --> maaheenyasin75@gmail.com
