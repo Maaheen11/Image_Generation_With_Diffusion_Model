@@ -24,14 +24,16 @@ Generated images from trained model (T = 98000 steps):
 
 ## Repository Structure
 
-├── code files/ All code files for DDPM Implementation
-├── Results/ # Generated samples during evaluation
-├── data # partial AFHQ dataset
+```
+├── code files/                  # All code files for DDPM Implementation
+├── Results/                     # Generated samples during evaluation
+├── data                         # partial AFHQ dataset
 ├── Original DDPM Research Paper # DDPM Paper by Ho et al
-├── training logs # Configuration JSON file, 4 Model Results at Step t 
-├── FID.png # Computed FID during evaluation
-├── loss.png # Training Loss Plot
+├── training logs                # Configuration JSON file, 4 Model Results at Step t
+├── FID.png                      # Computed FID during evaluation
+├── loss.png                     # Training Loss Plot
 └── README.md
+```
 
 ## Training the Model 
 
