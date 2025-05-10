@@ -4,7 +4,7 @@ This project implements a simplified version of Denoising Diffusion Probabilisti
 
 ## Features
 
-- End-to-end PyTorch implementation of the DDPM framework  
+- End-to-end PyTorch implementation of the DDPM  
 - Forward and reverse diffusion processes  
 - Support for linear and quadratic noise schedules  
 - U-Net-based noise prediction with sinusoidal timestep embeddings  
