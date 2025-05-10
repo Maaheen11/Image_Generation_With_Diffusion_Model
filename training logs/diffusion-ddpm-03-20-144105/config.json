@@ -1,0 +1,18 @@
+{
+  "gpu": 0,
+  "batch_size": 64,
+  "train_num_steps": 200000,
+  "warmup_steps": 3000,
+  "log_interval": 2000,
+  "max_num_images_per_cat": 3000,
+  "num_diffusion_train_timesteps": 2000,
+  "beta_1": 1e-06,
+  "beta_T": 0.01,
+  "seed": 42,
+  "image_resolution": 64,
+  "sample_method": "ddpm",
+  "use_cfg": false,
+  "cfg_dropout": 0.2,
+  "eval": false,
+  "device": "cuda:0"
+}
