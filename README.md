@@ -23,6 +23,7 @@ Generated images from trained model (T = 98000 steps):
 ![923](https://github.com/user-attachments/assets/1d542079-5af3-4fce-ba29-280a8c00d4e4)
 
 ## Repository Structure
+
 ├── code files/ # All code files for DDPM Implementation
 ├── Results/ # Generated samples during evaluation
 ├── data # partial AFHQ dataset
@@ -33,13 +34,16 @@ Generated images from trained model (T = 98000 steps):
 └── README.md
 
 ## Training the Model 
+
 python train.py 
 
 ## Evaluating the Model 
 
 Generating Images 
+
 python evaluate.py sample --ckpt_path last.ckpt --save_path results/
 
 
 Computing FID
+
 python evaluate.py fid --ckpt_path last.ckpt
